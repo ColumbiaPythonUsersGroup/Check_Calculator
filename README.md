@@ -7,7 +7,9 @@ Created GUI Frontend that calls the Backend application for weekly pay frequency
 
 # Updates - 10/27/17
 - Changed Python version from 2.* to 3.*
+
 -- This will allow the GUI to be formatted easier by using the .grid() method instead of the .pack() method
 - Started working on a web GUI instead of a tkinter GUI using HTML and CSS
+
 -- I am still trying to figure out how I would like the web app to work. 
 - Added a Flask backend to Backend.py
