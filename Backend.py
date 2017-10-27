@@ -27,3 +27,23 @@ def status(payfreq, filing_status, ftc):
 #print(type(payfreq))
 #print(type(filing_status))
 #print(status(payfreq, filing_status, ftc))
+
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.route("/netcheck", methods=['POST'])
+def netcheck():
+    if request.method == 'POST':
+        gross = request.form['gross_name']
+        print(gross)
+    return render_template("netcheck.html")
+
+
+if __name__ == '__main__':
+    app.debug = True
+    app.run()
