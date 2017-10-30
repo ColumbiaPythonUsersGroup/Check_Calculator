@@ -39,8 +39,14 @@ def index():
 @app.route("/netcheck", methods=['POST'])
 def netcheck():
     if request.method == 'POST':
-        gross = request.form['gross_name']
-        print(gross)
+        ftc = int(request.form['gross_name'])
+        print(ftc)
+        payfreq = str(request.form['pfreq_name'])
+        print(payfreq)
+        filing_status = str(request.form['marital_name'])
+        print(filing_status)
+        print(status(payfreq, filing_status, ftc))
+
     return render_template("netcheck.html")
 
 
