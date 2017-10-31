@@ -43,17 +43,17 @@ def netcheck():
         print(gross)
 
         pre_tax = int(request.form['pretax_ded'])
-        #print(pre_tax)
+        print(pre_tax)
 
         ftc = gross - pre_tax
 
         payfreq = str(request.form['pay_freq'])
-        #print(payfreq)
+        print(payfreq)
 
         filing_status = str(request.form['marital_status'])
-        #print(filing_status)
+        print(filing_status)
 
-        #print(status(payfreq, filing_status, ftc))
+        print(status(payfreq, filing_status, ftc))
 
     return render_template("netcheck.html")
 
