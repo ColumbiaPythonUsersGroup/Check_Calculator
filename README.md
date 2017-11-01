@@ -13,3 +13,10 @@ Created GUI Frontend that calls the Backend application for weekly pay frequency
 
 -- I am still trying to figure out how I would like the web app to work. 
 - Added a Flask backend to Backend.py
+
+# Updates 11/1/17
+- Was able to output to the netcheck.html page from the calculation within the Backend.py program
+
+- Added some more fields to the index.html page that will be needed in order to get an accutate Net amount
+
+-- Will work on addind these items to the backend once modules are done
