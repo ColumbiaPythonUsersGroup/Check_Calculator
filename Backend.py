@@ -53,9 +53,10 @@ def netcheck():
         filing_status = str(request.form['marital_status'])
         print(filing_status)
 
-        print(status(payfreq, filing_status, ftc))
+        output = (status(payfreq, filing_status, ftc))
+        print(output)
 
-    return render_template("netcheck.html")
+    return render_template("netcheck.html", variable=output)
 
 
 if __name__ == '__main__':
