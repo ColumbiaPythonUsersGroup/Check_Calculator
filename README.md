@@ -20,3 +20,10 @@ Created GUI Frontend that calls the Backend application for weekly pay frequency
 - Added some more fields to the index.html page that will be needed in order to get an accutate Net amount
 
 -- Will work on addind these items to the backend once modules are done
+
+# Updates 11/11/17
+- added a file for federal tax brackets
+- added a function to calculate federal taxes
+- changed the IRS_Married_Weekly and IRS_Single_Weekly to use
+simplified tax brackets and tax calculation
+- removed old federal tax table file

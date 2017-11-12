@@ -1,4 +1,4 @@
-from tkinter import *
+from Tkinter import *
 import Backend
 
 root = Tk()
