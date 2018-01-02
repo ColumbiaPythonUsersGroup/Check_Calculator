@@ -1,1 +1,3 @@
 *.pyc
+virtual_check/
+.idea*

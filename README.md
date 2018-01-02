@@ -1,3 +1,44 @@
+Installation Steps:
+==========================================
+Install python and pip
+1. Install python
+For windows:
+https://www.python.org/downloads/windows/
+
+For linux:
+For ubuntu 14.04
+================
+sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo apt-get update
+sudo apt-get install python3.6
+
+For Ubuntu 16.04
+================
+sudo apt-get update
+sudo apt-get install python3.6
+
+
+pip comes installed with python, using that install virtualenv
+2. Install virtualenv
+=====================
+pip install virtualenv
+
+Also using pip install flask
+3. Install flask
+=====================
+pip install flask
+
+4. Create your personalized environment
+=======================================
+virtualenv 'your_env'
+or
+cloned from github (in our case: git@github.com:ColumbiaPythonUsersGroup/Check_Calculator.git)
+
+=======================================================================================================================
+
+Updates
+========
+
 # Simple_GUI_Check_Calculator
 
 This is going to be a GUI application that will allow the user to input their inforamtion that would typicaly go into a check.  This is an excersize to learn how to import one application into the next as well as how to build my own back end program that will connect to the front end of a GUI application.
